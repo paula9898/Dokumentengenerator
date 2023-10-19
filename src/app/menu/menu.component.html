@@ -1,5 +1,5 @@
-<mat-toolbar>
-  <div class="navLeft">
+<mat-toolbar style="min-height: 100px; padding: 40px">
+  <button mat-button class="logo">
     <a href="#">
       <img
         class="logoPicture"
@@ -7,10 +7,11 @@
         alt="logo"
       />
     </a>
-  </div>
-  <button>HOME</button>
-  <button>BRIEF</button>
-  <button>PRESSEMITTEILUNG</button>
-  <button>DOKUMENT</button>
-  <button>INTERNES DOKUMENT</button>
+  </button>
+  <span class="logo-spacer"></span>
+  <button mat-button routerLink="home">HOME</button>
+  <button mat-button>BRIEF</button>
+  <button mat-button>PRESSEMITTEILUNG</button>
+  <button mat-button>DOKUMENT</button>
+  <button mat-button>INTERNES DOKUMENT</button>
 </mat-toolbar>
