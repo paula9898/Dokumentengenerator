@@ -10,8 +10,10 @@
   </button>
   <span class="logo-spacer"></span>
   <button mat-button routerLink="home">HOME</button>
-  <button mat-button>BRIEF</button>
-  <button mat-button>PRESSEMITTEILUNG</button>
+  <button mat-button (click)="onButtonClicked('brief')">BRIEF</button>
+  <button mat-button (click)="onButtonClicked('pressemitteilung')">
+    PRESSEMITTEILUNG
+  </button>
   <button mat-button>DOKUMENT</button>
   <button mat-button>INTERNES DOKUMENT</button>
 </mat-toolbar>

@@ -11,9 +11,17 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MaterialModule } from 'src/Material.Module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BriefComponent } from './brief/brief.component';
+import { PressemitteilungComponent } from './pressemitteilung/pressemitteilung.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, MenuComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    MenuComponent,
+    BriefComponent,
+    PressemitteilungComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
