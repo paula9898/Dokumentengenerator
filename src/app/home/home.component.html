@@ -1,6 +1,10 @@
-<div class="btn-wrapper">
-  <button>BRIEF</button>
-  <button>PRESSEMITTEILUNG</button>
-  <button>DOKUMENT</button>
-  <button>INTERNES DOKUMENT</button>
-</div>
+<mat-grid-list cols="2" rowHeight="250px">
+  <div class="btn-wrapper">
+    <mat-grid-tile><button mat-stroked-button>BRIEF</button></mat-grid-tile>
+    <mat-grid-tile
+      ><button mat-stroked-button>PRESSEMITTEILUNG</button></mat-grid-tile
+    >
+    <mat-grid-tile><button mat-stroked-button>DOKUMENT</button></mat-grid-tile>
+    <mat-grid-tile><button mat-stroked-button>PROTOKOLL</button></mat-grid-tile>
+  </div>
+</mat-grid-list>

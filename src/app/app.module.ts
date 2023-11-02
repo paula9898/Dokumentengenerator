@@ -13,6 +13,7 @@ import { MaterialModule } from 'src/Material.Module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BriefComponent } from './brief/brief.component';
 import { PressemitteilungComponent } from './pressemitteilung/pressemitteilung.component';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { PressemitteilungComponent } from './pressemitteilung/pressemitteilung.c
     MatIconModule,
     MatButtonModule,
     MaterialModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
