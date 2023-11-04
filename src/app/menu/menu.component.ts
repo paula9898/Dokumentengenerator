@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Route, Router } from '@angular/router';
 
+type DocumentType = 'brief' | 'pressemitteilung' | 'dokument' | 'protokoll';
+
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -9,8 +11,7 @@ import { Route, Router } from '@angular/router';
 export class MenuComponent {
   constructor(private router: Router) {}
 
-  onButtonClicked(type: string) {
-    console.log('onBriefClicked()');
-    this.router.navigate([type]);
+  onButtonClicked(documentType: DocumentType): void {
+    this.router.navigate(['form', documentType]);
   }
 }

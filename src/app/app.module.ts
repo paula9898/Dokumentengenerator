@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BriefComponent } from './brief/brief.component';
 import { PressemitteilungComponent } from './pressemitteilung/pressemitteilung.component';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { ProtokollComponent } from './protokoll/protokoll.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MenuComponent,
     BriefComponent,
     PressemitteilungComponent,
+    ProtokollComponent,
   ],
   imports: [
     BrowserModule,

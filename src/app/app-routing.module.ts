@@ -6,9 +6,9 @@ import { PressemitteilungComponent } from './pressemitteilung/pressemitteilung.c
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'brief', component: BriefComponent, data: { name: 'brief' } },
+  { path: 'form/brief', component: BriefComponent, data: { name: 'brief' } },
   {
-    path: 'pressemitteilung',
+    path: 'form/pressemitteilung',
     component: PressemitteilungComponent,
     data: { name: 'pressemitteilung' },
   },
